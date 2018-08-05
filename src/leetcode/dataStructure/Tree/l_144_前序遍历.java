@@ -5,12 +5,6 @@ import com.sun.jmx.remote.internal.ArrayQueue;
 import java.util.*;
 
 public class l_144_前序遍历 {
-    public static class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-    }
     public static class Guide {
         int opt; // 0：visit  1:print
         TreeNode node;
