@@ -4,7 +4,8 @@ public class Solution_24 {
     public static ListNode ReverseList(ListNode head) {
         if (head==null) return null;
         if (head.next==null) return head;
-        ListNode former = null,now=head;
+        ListNode former = null;
+        ListNode now=head;
         ListNode latter;
         while (now!=null){
             latter = now.next;
@@ -13,8 +14,6 @@ public class Solution_24 {
             now = latter;
         }
         return former;
-
-
     }
 
 
